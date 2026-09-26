@@ -7,12 +7,12 @@
     "bluetooth-keymap-toggle": {
       "name": "Bluetooth + Key Mapping Toggle",
       "author": "FinanceWiki",
-      "description": "One-touch control for Kindle HID passthrough and button mapping, with manual-only startup for better standby battery life.",
+      "description": "One-touch control for existing Kindle HID passthrough and button mapping.",
       "artifacts": [
         {
-          "url": "packages/bluetooth-keymap-toggle/artifacts/bluetooth-keymap-toggle_1.0.5_kindlehf-kindlepw2.kpkg",
-          "version": [1, 0, 5],
-          "dependencies": [{"id": "kindle-hid-passthrough"}],
+          "url": "packages/bluetooth-keymap-toggle/artifacts/bluetooth-keymap-toggle_1.0.6_kindlehf-kindlepw2.kpkg",
+          "version": [1, 0, 6],
+          "dependencies": [],
           "supported_platforms": ["kindlehf", "kindlepw2"]
         }
       ]

@@ -4,8 +4,9 @@ This static repository contains one KPM v2 package for jailbroken Kindles:
 
 - `bluetooth-keymap-toggle`: one-tap Bluetooth HID and key-mapping control.
 
-Install or register the repository that supplies `kindle-hid-passthrough`
-before installing this add-on.
+Install Kindle HID Passthrough with Button Mapper before using this add-on. The
+HID package may already have been installed manually, so KBT deliberately does
+not ask KPM to resolve it as a package dependency.
 
 ## Publish
 
@@ -36,5 +37,4 @@ After installation, the library contains `Bluetooth + Key Mapping`.
 
 The Bluetooth package stops the HID and key-mapping processes on uninstall.
 
-`SHA256SUMS` contains checksums for the two package artifacts and repository
-manifests.
+`SHA256SUMS` contains the package checksum.
