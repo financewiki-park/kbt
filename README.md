@@ -10,13 +10,13 @@ before installing this add-on.
 ## Publish
 
 Upload this directory unchanged to any HTTPS static host. For GitHub, commit the
-directory to a repository and use the raw URL of `manifest.v2.json`.
+directory to a repository and use the raw URL of `manifest.json`.
 
 Because Kindle search may reject URL punctuation, add the repository once from
 kTerm or another Scriptlet:
 
 ```sh
-/var/local/kmc/bin/kpm add-repo "https://raw.githubusercontent.com/OWNER/REPOSITORY/main/manifest.v2.json"
+/var/local/kmc/bin/kpm add-repo "https://raw.githubusercontent.com/OWNER/REPOSITORY/main/manifest.json"
 ```
 
 Then install from the Kindle search bar:
