@@ -10,8 +10,8 @@
       "description": "One-touch control for existing Kindle HID passthrough and button mapping.",
       "artifacts": [
         {
-          "url": "packages/bluetooth-keymap-toggle/artifacts/bluetooth-keymap-toggle_1.0.6_kindlehf-kindlepw2.kpkg",
-          "version": [1, 0, 6],
+          "url": "packages/bluetooth-keymap-toggle/artifacts/bluetooth-keymap-toggle_1.0.7_kindlehf-kindlepw2.kpkg",
+          "version": [1, 0, 7],
           "dependencies": [],
           "supported_platforms": ["kindlehf", "kindlepw2"]
         }

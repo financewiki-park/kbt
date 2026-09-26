@@ -34,6 +34,12 @@ mapper_running() {
 
 stop_services() {
     log "Stopping Bluetooth key mapping"
+    # These jobs may have been installed as Upstart services.  Stopping only
+    # their child processes lets Upstart immediately spawn them again.
+    /sbin/initctl stop kindle-button-mapper >/dev/null 2>&1 || \
+        /sbin/stop kindle-button-mapper >/dev/null 2>&1 || true
+    /sbin/initctl stop hid-passthrough >/dev/null 2>&1 || \
+        /sbin/stop hid-passthrough >/dev/null 2>&1 || true
     pkill -TERM -f 'kindle-button-mapper' >/dev/null 2>&1 || true
     pkill -TERM -f 'kindle-hid-passthrough --daemon' >/dev/null 2>&1 || true
     pkill -TERM -f 'main.py --daemon' >/dev/null 2>&1 || true
