@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "id": "bluetooth-keymap-toggle",
   "name": "Bluetooth + Key Mapping Toggle",
-  "author": "FinanceWiki",
+  "author": "kindle-lab",
   "description": "One-touch control for existing Kindle HID passthrough and button mapping.",
   "version": [
     1,
